@@ -1,3 +1,8 @@
+https://drive.google.com/drive/folders/1wxF54KdwCc13NtMss5d1s3niU1tc3kHK
+
+[HERBIA - Product Batch Control System-2.pdf](https://github.com/daltonhardt/ProductBatchControl/files/14377584/HERBIA.-.Product.Batch.Control.System-2.pdf)
+
+
 ### HERBIA - Product Batch Control System [EN-US]
 
 #### 1 From ERP Bling, the XML files for Input and Output invoices must be saved (manually or automatically) in specific folders.<br>
@@ -25,6 +30,8 @@ Batch data is stored in an Excel file.<br>
 All data is stored in an Excel format file.<br>
 → Program: Lotes-Saida.py<br>
 → File: G:\Meu Drive\Controle de Lotes\Lotes\LOTES-VENDIDOS.xlsx
+
+
 
 
 ### HERBIA - Sistema Controle De Lotes [PT-BR]
