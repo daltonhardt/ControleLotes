@@ -16,12 +16,15 @@
 → G:\Meu Drive\Controle de Lotes\XML\Dados\DADOS-XML-ENTRADA.dat<br>
 → G:\Meu Drive\Controle de Lotes\\XML\Dados\DADOS-XML-SAIDA.dat
 
-#### 5 The "Lotes-Entrada.py" program must be executed manually throughout the day (after the Invoice entry) to register the entry of a new Batch of product and its respective validity.<br>
+#### 5 The "Lotes-Entrada.py" program must be executed manually throughout the day (after the Invoice entry) to register the entry of a new Batch of product and its respective expiration date.<br>
 Batch data is stored in an Excel file.<br>
 → Program: Lotes-Entrada.py<br>
 → File: G:\Meu Drive\Controle de Lotes\Lotes\LOTES.xlsx
 
-<img width="765" alt="Screenshot 2024-02-22 at 17 33 35" src="https://github.com/daltonhardt/ProductBatchControl/assets/61704761/a528f818-4541-4ad7-b8d0-4369aab3b9c7">
+#### 6 The program "Lotes-Saida.py"  runs automatically and updates the consumption of each Batch of product according to sales, listing the buyer's CNPJ/CPF, date of sale, product, quantity and Batch consumed.<br>
+All data is stored in an Excel format file.<br>
+→ Program: Lotes-Saida.py<br>
+→ File: G:\Meu Drive\Controle de Lotes\Lotes\LOTES-VENDIDOS.xlsx
 
 
 ### HERBIA - Sistema Controle De Lotes [PT-BR]
@@ -46,3 +49,8 @@ Batch data is stored in an Excel file.<br>
 Os dados dos Lotes ficam armazenados num arquivo em formato Excel.<br>
 → Programa: Lotes-Entrada.py<br>
 → Arquivo: G:\Meu Drive\Controle de Lotes\Lotes\LOTES.xlsx
+
+#### 6 O programa "Lotes-Saida.py" roda de forma automática e faz a atualização do consumo de cada Lote de produto de acordo com as vendas, relacionando o CNPJ/CPF do comprador, a data da venda, o produto, a quantidade e o Lote consumido.<br>
+Todos os dados ficam armazenados num arquivo em formato Excel.<br>
+→ Programa: Lotes-Saida.py<br>
+→ Arquivo: G:\Meu Drive\Controle de Lotes\Lotes\LOTES-VENDIDOS.xlsx
